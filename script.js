@@ -188,7 +188,7 @@ $("#submit").click(function(){
         guna = "Tama";
     
     $(".right").html(
-        `<p>The vaastu area is ${varea}.</p> 
+        `<p>The vaastu area is ${varea}. (${l} X ${b})</p> 
         <p>The aaya of the area is <b style = "color: rgb(251, 133, 0);">${aya}</b>. </p>
         
         <table style = "margin-top: 15px; border: white 2px solid; padding: 10px;">
@@ -246,5 +246,6 @@ $("#submit").click(function(){
     );
 
 })    
+
 
 

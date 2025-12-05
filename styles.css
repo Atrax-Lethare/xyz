@@ -82,5 +82,9 @@ body {
         width: 100vw;
         height: 50vh;
         float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
+

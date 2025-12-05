@@ -72,3 +72,15 @@ body {
     box-shadow: 5px 5px 5px rgb(96, 96, 96);
     transform: translate(-5px, -5px);
 }
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100vw;
+        height: 50vh;
+        float: none;
+    }
+}

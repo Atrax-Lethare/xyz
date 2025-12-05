@@ -82,9 +82,20 @@ body {
         width: 100vw;
         height: 50vh;
         float: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputs{
         display: flex;
+        flex-direction: column;
+        gap: 10px;
         justify-content: center;
         align-items: center;
     }
 }
-
